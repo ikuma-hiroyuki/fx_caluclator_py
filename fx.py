@@ -23,6 +23,5 @@ data = responce.json()
 if data["success"]:
     result_price = data["result"]
     print(f"{int(args.price)} {args.base.upper()} = {result_price} {args.conv.upper()}")
-    print(responce.url)
 else:
     print("Failed.")
